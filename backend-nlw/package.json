@@ -1,9 +1,9 @@
 {
-  "name": "backend",
+  "name": "backend-nlw",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "typecript": "^0.0.1-security"
+    "typescript": "^3.9.7"
   }
 }
