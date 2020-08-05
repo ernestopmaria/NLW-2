@@ -4,10 +4,11 @@ import logoImg from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
 import './styles.css'
-import { title } from 'process';
+
 
 interface PageHeaderProps{
     title:string
+    description?:string
 }
 
 
@@ -23,6 +24,7 @@ const PageHeader :React.FC<PageHeaderProps>=(props)=> {
         </div>
         <div className ="header-content">
     <strong> {props.title}</strong>
+    {props.description && <p>{props.description}</p>}
     {props.children}
         </div>
        
