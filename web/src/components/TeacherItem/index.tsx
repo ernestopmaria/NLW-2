@@ -5,9 +5,9 @@ import './styles.css'
 
 
 
-
-
 function TeacherItem(){
+
+
     return(
         <article className="teacher-item">
         <header>
