@@ -47,6 +47,7 @@
     font:700 1.6rem Archivo;
     cursor: pointer;
     transition: color 0.2s;
+    outline: 0;
 }
 
 #page-teacher-form main fieldset legend button:hover{
@@ -88,6 +89,7 @@
     background: var(--color-secundary);
     color: var(--color-button-text);
     border: 0;
+    border-color: var(--color-button-text);
     border-radius: 0.8rem;
     cursor: pointer;
     font: 700 1.6rem Archivo;
@@ -97,11 +99,13 @@
     text-decoration: none;
     transition: background-color 0.2s;
     margin-top: 3.2rem;
+    outline: 0;
 }
 
 #page-teacher-form main footer button:hover{
     background: var(--color-secundary-dark);
 }
+
 
 @media (min-width:700px){
     #page-teacher-form{

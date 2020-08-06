@@ -47,6 +47,7 @@
     text-decoration: none;
     color: var(--color-button-text);
     transition: background-color 0.2s;
+    outline: 0;
 }
 .buttons-container a:first-child{
     margin-right: 1.6rem;
