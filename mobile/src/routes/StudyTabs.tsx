@@ -49,7 +49,17 @@ function StudyTabs(){
                 }
             }}
             />
-            <Screen name = "Favorites" component={Favorites} />
+            <Screen name = "Favorites" 
+            component={Favorites} 
+            options ={{
+                tabBarLabel: 'Favoritos',
+                tabBarIcon:({color, size})=> {
+                    return (
+                        <Ionicons name="ios-heart" size={size} color={color}/>
+                    );
+                }
+            }}
+            />
         </Navigator>
     )
 }
