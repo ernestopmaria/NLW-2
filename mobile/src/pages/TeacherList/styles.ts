@@ -10,11 +10,37 @@ const styles= StyleSheet.create({
         marginTop: -40,
     },
     searchForm:{
-        marginBottom:8
+        marginBottom:24
     },
     label:{
         color:'#d4c2ff',
         fontFamily:'Poppins-Regular',
+
+    },
+
+    submitButton:{
+            backgroundColor:'#04d361',
+            height:56,
+            flexDirection:'row',
+            borderRadius: 8,
+            justifyContent:'center',
+            alignItems:'center',
+         
+    },
+
+    submitButtonText:{
+        color:'#fff',
+        fontFamily: 'Archivo-Bold',
+        fontSize:16,
+       
+
+    },
+
+    filter:{
+        color:"#fff",
+        fontFamily:'Poppins-Regular',
+        alignItems:'center',
+        
 
     },
     inputGroup:{
