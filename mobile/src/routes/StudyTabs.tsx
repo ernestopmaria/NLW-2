@@ -1,6 +1,6 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Icon  from 'react-native-vector-icons/MaterialIcons';
+import Ionicons  from 'react-native-vector-icons/Ionicons';
 
 
 
@@ -45,7 +45,7 @@ function StudyTabs(){
                 tabBarLabel: 'Proffys',
                 tabBarIcon:({color, size, focused})=> {
                     return (
-                        <Icon name="heart" size={size} color={ focused ? "#8257e5" : color}/>
+                        <Ionicons name="ios-easel" size={size} color={ focused ? "#8257e5" : color}/>
                     );
                 }
             }}
@@ -56,7 +56,7 @@ function StudyTabs(){
                 tabBarLabel: 'Favoritos',
                 tabBarIcon:({color, size, focused})=> {
                     return (
-                        <Icon name="ios-heart" size={size} color={ focused ? "#8257e5" : color}/>
+                        <Ionicons name="ios-heart" size={size} color={ focused ? "#8257e5" : color}/>
                     );
                 }
             }}
